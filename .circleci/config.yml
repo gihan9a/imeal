@@ -27,7 +27,7 @@ jobs:
           - v1-dependencies-
 
       - run: yarn install
-      - run: npm install -g codeclimate-test-reporter
+      - run: sudo npm install -g codeclimate-test-reporter
 
       - save_cache:
           paths:
